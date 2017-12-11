@@ -57,6 +57,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     <div id="education" class="gray">
       <h2>Education</h2>
     </div>
+    <div id="onlineCourse">
+      <h2>Online Course</h2>
+    </div>
     <div id="mapDiv">
       <h2>Where I've Lived and Worked</h2>
     </div>
@@ -136,6 +139,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     }
     if(document.getElementsByClassName('education-entry').length === 0) {
       document.getElementById('education').style.display = 'none';
+    }
+    if(document.getElementsByClassName('onlineCourse-entry').length === 0) {
+      document.getElementById('onlineCourse').style.display = 'black';
     }
     if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('lets-connect').style.display = 'none';
